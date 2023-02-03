@@ -1,5 +1,4 @@
 .pageHeader {
-  // border-bottom: 1px solid #cfd8dc;
   margin: 2rem 0;
 }
 
@@ -13,7 +12,7 @@
   gap: 1rem;
 
   button {
-    background: #fff;
+    background: $white;
     border-radius: 12px;
     border: 0;
     padding: 1rem;

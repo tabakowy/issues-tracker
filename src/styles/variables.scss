@@ -1,8 +1,34 @@
+//
+// Breakpoints
+
 $breakpoint: 500px;
+
+//
+// Theme variables
 
 $containerWidth: 1100px;
 $borderRadius: 12px;
 
-$textPrimary: #263238;
-$textSecondary: #546e7a;
-$textMuted: #607d8b;
+//
+// Colors
+
+$white: #fff;
+
+$grey-50: #fafafa;
+$grey-500: #9e9e9e;
+
+$blue-grey-50: #eceff1;
+$blue-grey-500: #607d8b;
+$blue-grey-900: #37474f;
+
+$indigo-50: #e8eaf6;
+$indigo-500: #3f51b5;
+
+$red-50: #ffebee;
+$red-500: #f44336;
+
+$orange-50: #fff3e0;
+$orange-500: #ff9800;
+
+$teal-50: #e0f2f1;
+$teal-500: #009688;

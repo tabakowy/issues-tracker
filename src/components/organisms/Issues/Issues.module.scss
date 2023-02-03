@@ -15,7 +15,7 @@
     content: "";
     width: 100%;
     height: 100%;
-    box-shadow: 0.75rem 0.75rem 1.5rem rgba(#37474f, 0.075);
+    box-shadow: 0.75rem 0.75rem 1.5rem rgba($blue-grey-900, 0.075);
     transition: opacity 250ms ease-in-out;
     pointer-events: none;
     position: absolute;
@@ -42,7 +42,7 @@
 }
 
 .user {
-  color: $textPrimary;
+  color: $blue-grey-900;
   font-weight: 600;
   white-space: nowrap;
   overflow: hidden;

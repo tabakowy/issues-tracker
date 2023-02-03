@@ -8,13 +8,14 @@
 
 html,
 body {
-  font-family: sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell,
+    Ubuntu, roboto, noto, arial, sans-serif;
 }
 
 body {
-  color: $textPrimary;
+  color: $blue-grey-900;
   line-height: 1.5;
-  background: #e8eaf6;
+  background: $indigo-50;
 }
 
 a {

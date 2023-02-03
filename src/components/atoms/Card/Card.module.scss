@@ -2,9 +2,9 @@
   display: grid;
   gap: 1.5rem;
   padding: 1rem;
-  background: #fff;
+  background: $white;
   border-radius: $borderRadius;
-  box-shadow: 0.25rem 0.25rem 0.5rem rgba(#37474f, 0.055);
+  box-shadow: 0.25rem 0.25rem 0.5rem rgba($blue-grey-900, 0.055);
 
   @media (min-width: $breakpoint + 1) {
     padding: 2rem;
@@ -13,7 +13,7 @@
 
 .header,
 .footer {
-  color: $textMuted;
+  color: $blue-grey-500;
   font-size: 0.75rem;
   gap: 1rem;
   display: flex;
