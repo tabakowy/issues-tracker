@@ -1,0 +1,21 @@
+.button {
+  font-weight: 900;
+  font-family: inherit;
+  text-transform: uppercase;
+
+  min-height: 2.5rem;
+  padding: 0.5rem 1.25rem;
+  border-radius: $borderRadius;
+  background: #fff;
+  border: 0;
+
+  gap: 0.5rem;
+  display: flex;
+  align-items: center;
+
+  transition: opacity 150ms ease-in-out, color 150ms ease-in-out, background 150ms ease-in-out;
+
+  &:not([disabled]) {
+    cursor: pointer;
+  }
+}

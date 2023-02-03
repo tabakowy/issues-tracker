@@ -1,0 +1,18 @@
+.statusBadge {
+  transition: color 150ms ease-in-out, background 150ms ease-in-out;
+
+  @media (max-width: $breakpoint) {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.pending {
+  color: #ff9800;
+  background: #fff3e0;
+}
+
+.closed {
+  color: #009688;
+  background: #e0f2f1;
+}

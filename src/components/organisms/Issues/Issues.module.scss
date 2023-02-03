@@ -1,0 +1,63 @@
+.issues {
+  display: grid;
+  gap: 2rem;
+
+  &:hover .issue:not(.issue:hover) {
+    opacity: 0.65;
+  }
+}
+
+.issue {
+  transition: opacity 250ms ease-in-out;
+  position: relative;
+
+  &::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    box-shadow: 0.75rem 0.75rem 1.5rem rgba(#37474f, 0.075);
+    transition: opacity 250ms ease-in-out;
+    pointer-events: none;
+    position: absolute;
+    opacity: 0;
+  }
+
+  &:hover::after {
+    opacity: 1;
+  }
+
+  &:hover .updateStatusButton,
+  &:hover .deleteButton {
+    opacity: 1;
+  }
+}
+
+.header {
+  overflow: hidden;
+  flex-wrap: nowrap;
+}
+
+.footer {
+  min-height: 3rem;
+}
+
+.user {
+  color: $textPrimary;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: $breakpoint + 1) {
+  .updateStatusButton,
+  .deleteButton {
+    margin-left: auto;
+    opacity: 0;
+  }
+}

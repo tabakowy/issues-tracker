@@ -1,0 +1,16 @@
+.updateStatusButton {
+  padding: 0.5rem 1.25rem;
+  color: #3f51b5;
+  background: #e8eaf6;
+  gap: 0.5rem;
+
+  &:hover {
+    color: #fff;
+    background: #3f51b5;
+  }
+
+  @media (max-width: $breakpoint) {
+    justify-content: center;
+    width: 100%;
+  }
+}
